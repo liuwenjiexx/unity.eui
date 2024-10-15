@@ -1,0 +1,18 @@
+{
+  "name": "com.unity.eui",
+  "displayName": "Element UI Extension",
+  "version": "0.0.2-preview-1",
+  "unity": "2019.1",
+  "keywords": [
+    "ui"
+  ],
+  "category": "ui",
+  "description": "Element UI Extension",
+  "dependencies": {
+    "com.unity.binding": "0.0.1",
+    "com.unity.serialization": "0.0.1"
+  },
+  "author": {
+    "name": ""
+  }
+}

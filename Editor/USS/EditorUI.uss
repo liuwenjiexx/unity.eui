@@ -1,0 +1,55 @@
+EditableLabel {
+    flex-shrink: 1;
+}
+
+EditableLabel TextInput {
+    flex-grow: 1;
+}
+
+.drag-bar-vertical {
+    height: 7px;
+    cursor: resize-vertical;
+}
+
+.drag-bar-vertical-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.drag-bar-vertical-top {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -3px;
+}
+
+.settings-provider_title {
+    padding-left: 9px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    flex-shrink: 0;
+}
+
+.settings-provider_title-text {
+    font-size: 19px;
+    -unity-font-style: bold;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 7px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.settings-provider_content {
+    padding-left: 9px;
+}
+
+.unity-list-view__empty-label {
+    display: none;
+}

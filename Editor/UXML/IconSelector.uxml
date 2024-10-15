@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.yanmonet.editor.ui/Editor/USS/IconSelector.uss?fileID=7433441132597879392&amp;guid=4beba828f9d778c43b153f2d229c7361&amp;type=3#IconSelector" />
+    <Style src="project://database/Packages/com.yanmonet.editor.ui/Editor/USS/EditorUI.uss?fileID=7433441132597879392&amp;guid=efeaaea89ffa8274d9d7faf4a94502de&amp;type=3#EditorUI" />
+    <uie:Toolbar>
+        <uie:ToolbarToggle focusable="false" text="All" name="all" style="display: none;" />
+        <uie:ToolbarToggle focusable="false" text="Builtin" name="builtin" />
+        <uie:ToolbarToggle focusable="false" text="Project" name="project" />
+        <uie:ToolbarSpacer />
+        <uie:ToolbarButton text="Szie" display-tooltip-when-elided="true" style="-unity-text-align: middle-left;" />
+        <uie:ToolbarToggle focusable="false" name="size-16" text="16" tooltip="0&lt; size &lt;= 16" />
+        <uie:ToolbarToggle focusable="false" text="32" name="size-32" tooltip="16 &lt; size &lt;= 32" />
+        <uie:ToolbarToggle focusable="false" name="size-64" text="64" tooltip="32 &lt; size &lt;= 64" />
+        <uie:ToolbarToggle focusable="false" text="128" name="size-128" tooltip="64 &lt; size &lt;= 128" />
+        <uie:ToolbarToggle focusable="false" text="&gt;128" name="size-greater" tooltip="size &gt; 128" />
+        <uie:ToolbarSpacer style="flex-grow: 1;" />
+        <uie:ToolbarSearchField focusable="true" />
+    </uie:Toolbar>
+    <ui:VisualElement name="grid-container" style="flex-grow: 1;" />
+</ui:UXML>
