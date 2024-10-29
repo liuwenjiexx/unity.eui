@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
     [Serializable]
     public struct BuiltinIcon : IEquatable<BuiltinIcon>

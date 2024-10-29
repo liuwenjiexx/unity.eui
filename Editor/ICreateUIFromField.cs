@@ -1,7 +1,7 @@
 using System.Reflection;
 using UnityEngine.UIElements;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
     public interface ICreateUIFromField
     {

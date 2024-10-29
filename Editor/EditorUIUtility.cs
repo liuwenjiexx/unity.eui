@@ -1,4 +1,3 @@
-using Internal;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,9 +9,13 @@ using UnityEngine.UIElements;
 using Unity.Editor;
 using Unity;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
-    public class EditorUIUtility
+    public class EditorUIUtility : EditorUIElementsUtility
+    {
+    }
+
+    public class EditorUIElementsUtility
     {
         private static Dictionary<Type, Type> inputFieldTypes;
         private static Dictionary<Type, Lazy<ICreateUIFromField>> createInputFieldTypes;

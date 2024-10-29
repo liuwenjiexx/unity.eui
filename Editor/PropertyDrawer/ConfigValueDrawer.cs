@@ -1,4 +1,3 @@
-using Internal;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
@@ -8,7 +7,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using Unity;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
     [CustomPropertyDrawer(typeof(ConfigValue<>), true)]
     public class ConfigValueDrawer : PropertyDrawer

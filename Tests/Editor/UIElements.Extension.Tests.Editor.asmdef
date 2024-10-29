@@ -1,0 +1,30 @@
+{
+    "name": "UIElements.Extension.Tests.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e734ab96663a503408ecc1a123dcf7d2",
+        "GUID:a2ba6bd5f14751f478081de4b4745709",
+        "GUID:11c4ef441c3ab6845b800b67fcc0ab43"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS",
+        "UIELEMENTS_TESTS",
+        "SETTINGS"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.yanmonet.settings",
+            "expression": "",
+            "define": "SETTINGS"
+        }
+    ],
+    "noEngineReferences": false
+}

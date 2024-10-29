@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using Unity;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
     public class ConfigValueField<T> : BaseField<ConfigValue<T>>
     {

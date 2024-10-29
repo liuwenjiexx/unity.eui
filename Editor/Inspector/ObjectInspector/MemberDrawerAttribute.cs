@@ -1,6 +1,6 @@
 using System;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
     public class MemberDrawerAttribute : Attribute
     {

@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 1; -unity-background-image-tint-color: rgb(48, 48, 48); position: absolute; left: 0; right: 0; bottom: 0; opacity: 1; align-items: center; top: 100%;">
+        <ui:VisualElement picking-mode="Ignore" style="position: absolute; align-items: center; opacity: 1; width: 310px; top: -100px;">
+            <ui:VisualElement picking-mode="Ignore" style="border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 17px; border-bottom-left-radius: 17px; border-top-right-radius: 17px; border-bottom-right-radius: 17px; background-color: rgb(91, 91, 91); padding-left: 20px; padding-right: 20px; padding-top: 7px; padding-bottom: 7px; opacity: 0.9;">
+                <ui:Label text="Content" display-tooltip-when-elided="true" name="content" picking-mode="Ignore" style="-unity-text-align: middle-center; font-size: 18px; white-space: normal; color: rgb(210, 210, 210);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

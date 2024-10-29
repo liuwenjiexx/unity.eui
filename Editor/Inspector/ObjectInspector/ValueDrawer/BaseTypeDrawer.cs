@@ -1,10 +1,9 @@
-using Internal;
 using System;
 using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 using Unity.Editor;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
     [MemberDrawer(typeof(string))]
     class StringDrawer : ValueDrawer

@@ -1,12 +1,11 @@
-﻿using Internal;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine.UIElements;
 using Unity.Editor;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
     [MemberDrawer(typeof(Array))]
     internal class ArrayDrawer : ValueDrawer

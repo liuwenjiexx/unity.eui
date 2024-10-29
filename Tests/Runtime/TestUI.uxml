@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Test UI" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Button text="Toast" parse-escape-sequences="true" display-tooltip-when-elided="true" name="toast" />
+            <ui:Button text="Process Bar" parse-escape-sequences="true" display-tooltip-when-elided="true" name="process-bar" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

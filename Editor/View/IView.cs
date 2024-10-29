@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using UnityEngine.UIElements;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
     public interface IView : INotifyPropertyChanged
     {

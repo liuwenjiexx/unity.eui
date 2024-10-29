@@ -4,11 +4,10 @@ using UnityEditor.UIElements;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
-using Unity.UI.Editor;
 using Unity;
 using Unity.Bindings;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
     public class SerializedPropertyBinding<T> : IBinding
     {

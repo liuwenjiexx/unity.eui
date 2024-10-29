@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine.UIElements;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
     public class SearchDropdownField : BaseField<object>, INotifyValueChanged<object>
     {

@@ -3,7 +3,7 @@ using System.ComponentModel;
 using UnityEngine;
 using Unity;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
     [Serializable]
     public class DockPanelSettings : INotifyPropertyChanged
@@ -12,7 +12,7 @@ namespace Unity.UI.Editor
         private float height;
         public float Height { get => height; set => PropertyChanged.Invoke(this, nameof(Height), ref height, value); }
 
-
+        
         [SerializeField]
         private bool collapsed;
         public bool Collapsed { get => collapsed; set => PropertyChanged.Invoke(this, nameof(Collapsed), ref collapsed, value); }

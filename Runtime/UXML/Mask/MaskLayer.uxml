@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="mask-layer" style="flex-grow: 1; -unity-background-image-tint-color: rgb(48, 48, 48); background-color: rgba(0, 0, 0, 0.5);">
+        <ui:VisualElement name="content-container" picking-mode="Ignore" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

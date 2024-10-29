@@ -1,19 +1,19 @@
 {
-    "name": "EUI.Editor",
+    "name": "UIElements.Extension.Tests",
     "rootNamespace": "",
     "references": [
-        "GUID:ccc90c7f74c90d24885debac82b0c123",
-        "GUID:49b7ae4994c515a47a1f1e63f63716c3"
+        "GUID:850b9ef388edbb4469e964731f1e1826",
+        "GUID:ed7ff784cc9e87f4eb2f0a49af3e97a9"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": [],
+    "defineConstraints": [
+        "UIELEMENTS_TESTS"
+    ],
     "versionDefines": [],
     "noEngineReferences": false
 }

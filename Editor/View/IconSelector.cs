@@ -9,7 +9,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using Debug = UnityEngine.Debug;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
     public class IconSelector : EditorWindow
     {

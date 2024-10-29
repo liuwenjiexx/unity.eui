@@ -6,9 +6,9 @@ using UnityEngine;
 
 #region Unity Package
 
-[assembly: AssemblyMetadata("Unity.Package.Name", "com.unity.eui.editor")]
+[assembly: AssemblyMetadata("Unity.Package.Name", "com.unity.ui-elements-extension")]
 
 #endregion
 
 
-[assembly: InternalsVisibleTo("EUI.Tests.Editor")]
+[assembly: InternalsVisibleTo("UIElements.Extension.Tests.Editor")]

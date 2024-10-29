@@ -1,17 +1,14 @@
 {
-  "name": "com.unity.eui",
-  "displayName": "Element UI Extension",
-  "version": "0.0.2-preview-1",
-  "unity": "2019.1",
-  "keywords": [
-    "ui"
-  ],
-  "category": "ui",
-  "description": "Element UI Extension",
+  "name": "com.unity.ui-elements-extension",
+  "displayName": "UI Elements Extension",
+  "version": "0.0.2-preview-3",
+  "unity": "2020.1",
   "dependencies": {
     "com.unity.binding": "0.0.1",
-    "com.unity.serialization": "0.0.1"
+    "com.unity.data.serialization": "0.0.1",
+    "com.unity.async": "0.0.1"
   },
+  "samples": [],
   "author": {
     "name": ""
   }

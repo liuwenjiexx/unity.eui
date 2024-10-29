@@ -9,7 +9,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Internal
+namespace UnityEditor.UIElements.Extension
 {
     internal static partial class InternalExtensions
     {

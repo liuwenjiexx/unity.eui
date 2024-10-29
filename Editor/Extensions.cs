@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 using Unity.Editor;
 using System.ComponentModel;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
     public static class Extensions
     {

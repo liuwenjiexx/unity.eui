@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 using Unity.Bindings;
 using Unity;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
 
     public abstract class ValueDrawer

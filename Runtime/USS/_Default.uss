@@ -1,0 +1,58 @@
+.chart {
+    flex-direction: row;
+    min-height: 150px;
+    border-bottom-width: 1px;
+    flex-grow: 1;
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+}
+
+.chart .chart-title-container {
+    width: 180px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-self: flex-start;
+}
+
+.chart .chart-title__text {
+    padding-bottom: 2px;
+    -unity-font-style: bold;
+}
+
+.chart .chart-data {
+    flex-direction: row;
+    height: 20px;
+    align-items: center;
+}
+
+.chart .chart-data .chart-data__color {
+    width: 10px;
+    height: 10px;
+    border-left-color: rgba(0, 0, 0, 0.73);
+    border-right-color: rgba(0, 0, 0, 0.73);
+    border-top-color: rgba(0, 0, 0, 0.73);
+    border-bottom-color: rgba(0, 0, 0, 0.73);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    margin-right: 5px;
+    background-color: rgb(219, 197, 170);
+}
+
+.chart .chart-data .chart-data__text {
+    font-size: 12px;
+}
+
+.chart .chart-canvas {
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-left-width: 1px;
+    flex-grow: 1;
+}

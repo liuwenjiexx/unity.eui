@@ -1,10 +1,9 @@
-using Internal;
 using System;
 using UnityEditor;
 using Unity;
 using Unity.Bindings;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
     class SerializedPropertyAccessor<TValue> : IAccessor<TValue>
     {

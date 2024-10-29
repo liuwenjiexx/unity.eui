@@ -5,7 +5,7 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
    public class CustomViewAttribute : Attribute
     {

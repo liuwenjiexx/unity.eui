@@ -1,0 +1,16 @@
+{
+    "name": "UIElements.Extension",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ed7ff784cc9e87f4eb2f0a49af3e97a9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

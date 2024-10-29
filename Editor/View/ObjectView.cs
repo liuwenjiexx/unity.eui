@@ -1,4 +1,3 @@
-using Internal;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,7 +10,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using Unity.Editor;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
 
     public class ObjectView : VisualElement

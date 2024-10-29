@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using UnityEngine;
-using Internal;
 using System.ComponentModel;
 using Unity.Editor;
 #if UNITY_EDITOR

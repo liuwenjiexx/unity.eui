@@ -1,4 +1,3 @@
-using Internal;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,7 +7,7 @@ using Unity.Bindings;
 using UnityEditor;
 using UnityEngine;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
     public class EditableMember
     {

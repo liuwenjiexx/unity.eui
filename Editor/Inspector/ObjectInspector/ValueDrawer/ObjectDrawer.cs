@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine.UIElements;
 
-namespace Unity.UI.Editor
+namespace UnityEditor.UIElements.Extension
 {
     public class ObjectDrawer : ValueDrawer
     {
